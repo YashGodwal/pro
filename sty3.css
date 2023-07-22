@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(171, 203, 229);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    height: 600px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 15px 2px  rgb(118, 116, 116);
+    position: relative;
+    overflow: hidden;
+    gap: 2px;
+}
+#img{
+    width: 270px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s linear 0s;
+    /* transition: all 0.3s 0.4s linear; */
+    
+}
+#img:hover{
+    transform: scale(1.16);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.box{
+    width: 250px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(187, 222, 231, 0.712);
+    display: flex;
+    flex-direction: row;
+}
+.leftbox{
+    width:60%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.smallbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+#para{
+    font-size: 15px;
+}
+h1{
+    font-size: o.2rem;
+}
+.rightbox{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#butt{
+    margin: 15px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: white;
+    /* box-shadow: 3px 3px 5px rgb(8, 8, 8); */
+    box-shadow: 1px 2px 15px 2px  rgb(118, 116, 116);
+    background-color: rgb(8, 8, 94);
+}
+#butt:hover{
+    color: rgb(22, 22, 191);
+    background-color: rgb(234, 234, 234);
+}
+h3{
+    margin-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
